@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextAppearance="@style/ToolbarTitle"
+        app:subtitleTextAppearance="@style/ToolbarSubtitle"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul :"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_ip_judulvote"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:background="@drawable/round_text"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Jawaban :"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/spinner_jmlpil"
+                android:text="Jumlah Pilihan :"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_jmlpil"
+                android:layout_alignParentRight="true"></Spinner>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_piljwb"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:foreground="?attr/selectableItemBackgroundBorderless"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:id="@+id/rv_buat_vote"
+            android:clickable="true"
+            android:background="@drawable/round_btn_primary"
+            android:foreground="?attr/selectableItemBackgroundBorderless">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buat Vote"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:foreground="?attr/selectableItemBackgroundBorderless"/>
+
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

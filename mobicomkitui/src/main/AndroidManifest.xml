@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.applozic.mobicomkit.uiwidgets">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application>
+        <activity android:name=".vote.VoteActivity"></activity>
+        <activity
+            android:name=".meetup.TempatActivity"
+            android:label="@string/title_activity_tempat"></activity>
+        <activity
+            android:name="com.applozic.mobicomkit.welcome.WelcomeActivity">
+        </activity>
+    </application>
+</manifest>

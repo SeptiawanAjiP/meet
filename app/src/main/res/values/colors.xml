@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f1c40f</color>
+    <color name="colorPrimaryDark">#ffa000</color>
+    <color name="colorAccent">#c6ff00</color>
+
+    <!--<color name="background">#4D394B</color>-->
+    <color name="scrollview_background">#4D394B</color>
+    <color name="buttonbgcolor">#f1c40f</color>
+    <color name="textbuttoncolor">#ffffff</color>
+    <!--<color name="white">#fff</color>-->
+
+    <color name="darkGrey">#616161</color>
+    <color name="LightBackground">#f9f9f9</color>
+
+    <color name="background">@color/LightBackground</color>
+    <color name="backgroundDark">#F1F1F1</color>
+    <color name="whitetTransparent">#50ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="primaryDisabled">#ff4a4a</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey_text">#424242</color>
+    <color name="grey">#808080</color>
+    <color name="black30">#717272</color>
+    <color name="black10">#ABABAB</color>
+    <color name="black5">#D0D0D1</color>
+
+
+</resources>

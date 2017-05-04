@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "185120847787",
+    "firebase_url": "https://meetup-messenger.firebaseio.com",
+    "project_id": "meetup-messenger",
+    "storage_bucket": "meetup-messenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185120847787:android:e41916e235f9fc5d",
+        "android_client_info": {
+          "package_name": "com.mobicomkit.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185120847787-1gcoasqomlbhrv0dqhq905sqanc477ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFW6hmmpG2JL9tFnBpQjOgF7mXluaKqFQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
